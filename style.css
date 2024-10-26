@@ -11,11 +11,13 @@
 .session-1 {
     background: url('image/bg2.jpeg') no-repeat center center;
     background-size: cover;
+    padding-top: 12%;
 }
 
 .session-2 {
     background: url('image/bg2.jpeg') no-repeat center center;
     background-size: cover;
+    padding-top: 25%;
 }
 
 .session-3 {
@@ -26,10 +28,12 @@
 .session-4 {
     background: url('image/bg2.jpeg') no-repeat center center;
     background-size: cover;
+    padding-top: 35%;
 }
 .session-5 {
     background: url('image/bg2.jpeg') no-repeat center center;
     background-size: cover;
+    padding-top: 30%;
 }
 
 /* Mengatur agar website tetap berukuran mobile meskipun di desktop */
@@ -68,11 +72,26 @@
 .pria-foto{
     width: 320px;
 }
-.jadwal{
-    padding-top: 20%;
-}
-.adat{
+
+.jadwal-berkat{
     width: 200px;
+}
+.jadwal-adat{
+    width: 170px;
+}
+.jadwal-resepsi{
+    width: 170px;
+}
+.text-jadwal{
+    font-size: 12px;
+}
+.form-tamu{
+    background-color: rgba(0, 43, 184, 0.356);
+    border-radius: 30px;
+    box-shadow: 0 0px 8px 3px rgba(0, 0, 0, 0.781);
+}
+.text-lokasi{
+    font-size: 14px;
 }
 .wanita-foto{
     width: 290px;
@@ -84,6 +103,7 @@
     height: 450px;
     width: 100%;
 }
+
 iframe{
     border-radius: 20px;
     box-shadow: 0 0px 8px 3px rgba(12, 11, 12, 0.781);
@@ -120,4 +140,18 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.gallery-item {
+    margin-bottom: 10px;
+  }
+  .gallery-item img {
+    width: 140px; 
+    height: 160px; 
+    box-shadow: 2px 4px 8px rgba(8, 8, 8, 0.651);
+}
+
+.galery {
+    max-width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+}
 

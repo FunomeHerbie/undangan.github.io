@@ -7,23 +7,49 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
-    <audio src="music/musik.mp3" autoplay loop class="audio"></audio>
+    <audio src="" autoplay loop class="audio"></audio>
     <div class="container-mobile">
-        <div id="session-1" class="session session-1 text-center justify-content-center align-items-center d-flex">
+        <div id="session-1" class="session session-1 text-center align-items-center d-flex">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-10">
-                        <h2 class="py-3">Lokasi Pernikahan</h2>
+                        <h2 class="text-lokasi py-2">Lokasi Pemberkatan</h2>
                         <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d865.0591867848241!2d124.26764609116428!3d-9.732103525099983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e9!4m0!4m3!3m2!1d-9.7321917!2d124.2667984!5e0!3m2!1sid!2sid!4v1729922049294!5m2!1sid!2sid" 
-                            height="450" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.3495289554016!2d124.25987217595824!3d-9.736430703199272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c55ed663404e7ff%3A0x53ed59fc0a012f0b!2sGereja%20Silo%20Meo!5e0!3m2!1sid!2sid!4v1729938923442!5m2!1sid!2sid" 
+                            height="150" 
                             style="border:0;" 
                             allowfullscreen="" 
                             loading="lazy">
                         </iframe>
-
+                        <p>Rumah / Kediamana Bapak . . . dan Ibu . . . . </p>
+                        <div class="text-center py-1">
+                            <a href="https://www.google.com/maps?q=-9.731999,124.2667" 
+                               target="_blank" 
+                               class="btn btn-primary text-dark">
+                                Buka di Google Maps
+                            </a>
+                        </div>
+                        <br>
+                        <hr>
+                        <h2 class="text-lokasi py-2">Lokasi Pernikahan Adat / Resepsi</h2>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d865.0591867848241!2d124.26764609116428!3d-9.732103525099983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e9!4m0!4m3!3m2!1d-9.7321917!2d124.2667984!5e0!3m2!1sid!2sid!4v1729922049294!5m2!1sid!2sid" 
+                            height="150" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                        <p>Rumah / Kediamana Bapak . . . dan Ibu . . . . </p>
+                        <div class="text-center py-1">
+                            <a href="https://www.google.com/maps?q=-9.731999,124.2667" 
+                               target="_blank" 
+                               class="btn btn-primary text-dark">
+                                Buka di Google Maps
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -32,8 +58,30 @@
             <div class="jadwal">
                 <h2>Jadwal Lengkap</h2>
                 <div class="acara-adat py-3">
-                    <p class="fw-bold">Adat / Peminangan</p>
-                    <img src="image/adat.png" alt="adat" class="adat">
+                    <p class="text-jadwal fw-bold">Pemberkatan</p>
+                    <img src="image/berkat.png" alt="adat" class="jadwal-berkat">
+                    <p class="fw-bold py-2">Gedung Gereja Silo Meo </p>
+                    <a href="#session-1" class="btn btn-info">Lihat lokasi</a>
+                </div>
+                <div class="acara">
+                    <div class="row py-5">
+                        <div class="col-6">
+                            <div class="acara-adat text-end">
+                                <p class="text-jadwal fw-bold">Adat / Peminangan</p>
+                                <img src="image/adat.png" alt="adat" class="jadwal-adat">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="acara-adat text-start">
+                                <p class="text-jadwal fw-bold">Resepsi</p>
+                                <img src="image/resepsi.png" alt="adat" class="jadwal-resepsi">
+                            </div>
+                        </div>
+                            <p class="fw-bold">Rumah / Kediaman Bapak . . . Ibu . . . </p>
+                            <div class="tombol-lokasi py-2">
+                                <a href="#session-1" class="btn btn-info">Lihat lokasi</a>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,18 +115,83 @@
                 
             </main>
         </div>
-        <div id="session-4" class="session session-3 text-center mx-auto justify-content-center align-items-center d-flex">
-            <p>xxxx</p>
+        <div id="session-4" class="session session-4 text-center mx-auto align-items-center d-flex">
+            <h3>Galeri Foto</h3>
+            <div class="container py-4">
+                <div class="row galery text-center justify-content-center g-1 mx-auto">
+                    <div class="col-4 gallery-item">
+                        <img src="foto/1.jpeg" class="img-fluid" alt="Foto 1">
+                    </div>
+                    <div class="col-4 gallery-item">
+                        <img src="foto/2.jpeg" class="img-fluid" alt="Foto 2">
+                    </div>
+                    <div class="col-4 gallery-item">
+                        <img src="foto/3.jpeg" class="img-fluid" alt="Foto 3">
+                    </div>
+                    <div class="col-4 gallery-item">
+                        <img src="foto/4.jpeg" class="img-fluid" alt="Foto 4">
+                    </div>
+                    <div class="col-4 gallery-item">
+                        <img src="foto/5.jpeg" class="img-fluid" alt="Foto 5">
+                    </div>
+                    <div class="col-4 gallery-item">
+                        <img src="foto/2.jpeg" class="img-fluid" alt="Foto 6">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="session-5" class="session session-3 text-center mx-auto justify-content-center align-items-center d-flex">
-            <p>yyyy</p>
+        <div id="lightbox">
+            <span class="close-btn">&times;</span>
+            <span class="prev-btn">&#10094;</span>
+            <span class="next-btn">&#10095;</span>
+            <img id="lightbox-img" src="">
+        </div>
+        <div id="session-5" class="session session-5 text-center mx-auto align-items-center d-flex">
+            <main>
+                <h2 class="text-center mb-3">Konfirmasi Kehadiran</h2>
+                <hr>
+                <div class="row form-tamu">
+                    <div class="col-12">
+                        <div class="container my-5">
+                            <form>
+                                <!-- Nama -->
+                                <div class="mb-3 text-start">
+                                    <label for="nama" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Lengkap Anda" required>
+                                </div>
+                        
+                                <!-- Jumlah Tamu yang Akan Hadir -->
+                                <div class="mb-3 text-start">
+                                    <label for="jumlah" class="form-label">Jumlah orang yang dibawa?</label>
+                                    <input type="number" class="form-control" id="jumlah" placeholder="Masukkan Jumlah Tamu" required min="1">
+                                </div>
+                        
+                                <!-- Konfirmasi Kehadiran -->
+                                <div class="mb-3 text-start">
+                                    <label for="kehadiran" class="form-label">Apakah Anda Akan Hadir?</label>
+                                    <select class="form-select" id="kehadiran" required>
+                                        <option value="">Pilih...</option>
+                                        <option value="Ya">Ya, Saya Akan Hadir</option>
+                                        <option value="Tidak">Maaf, Saya Tidak Bisa Hadir</option>
+                                    </select>
+                                </div>
+                        
+                                <!-- Tombol Kirim -->
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary text-dark">Kirim</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
     </div>
 
     <div class="android-icon fixed-bottom d-flex justify-content-around align-items-center m-4 py-2 p-3">
             <a href="#session-1" class="text-center text-decoration-none text-dark">
                 <img src="icon/lokasi.png" alt="couple" class="icon-menu">
-                <p class="icon-text fw-bold">Lokasi</p>
+                <p class="icon-text fw-bold text-dark">Lokasi</p>
             </a>
             <a href="#session-2" class="text-center text-decoration-none text-dark">
                 <img src="icon/jadwal.png" alt="couple" class="icon-menu">
@@ -86,15 +199,15 @@
             </a>
             <a href="#session-3" class="text-center text-decoration-none text-dark">
                 <img src="icon/home.png" alt="couple" class="icon-menu">
-                <p class="icon-text fw-bold">Home</p>
+                <p class="icon-text fw-bold text-dark">Home</p>
             </a>
             <a href="#session-4" class="text-center text-decoration-none text-dark">
                 <img src="icon/galeri.png" alt="couple" class="icon-menu">
-                <p class="icon-text fw-bold">Galeri</p>
+                <p class="icon-text fw-bold text-dark">Galeri</p>
             </a>
             <a href="#session-5" class="text-center text-decoration-none text-dark">
                 <img src="icon/tamu.png" alt="couple" class="icon-menu">
-                <p class="icon-text fw-bold">Tamu</p>
+                <p class="icon-text fw-bold text-dark">Tamu</p>
             </a>
     </div>
 
