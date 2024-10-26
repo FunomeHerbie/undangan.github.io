@@ -1,0 +1,123 @@
+.session {
+    height: 100vh;
+    display: flex;
+    color: black;
+    text-align: center;
+    scroll-snap-align: start;
+    flex-direction: column;
+}
+
+/* Mengatur latar belakang untuk setiap sesi */
+.session-1 {
+    background: url('image/bg2.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.session-2 {
+    background: url('image/bg2.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.session-3 {
+    background: url('image/bg2.jpeg') no-repeat center center;
+    background-size: cover;
+    padding-top: 15%;
+}
+.session-4 {
+    background: url('image/bg2.jpeg') no-repeat center center;
+    background-size: cover;
+}
+.session-5 {
+    background: url('image/bg2.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Mengatur agar website tetap berukuran mobile meskipun di desktop */
+.container-mobile {
+    max-width: 576px; /* Ukuran maksimum untuk perangkat mobile */
+    margin: 0 auto;
+    padding: 0;
+    overflow-y: hidden;
+    height: 100vh;
+    scroll-snap-type: y mandatory; /* Snap scrolling ke arah vertikal */
+}
+.upper{
+    width: 140px;
+}
+.nama-pria{
+    width: 340px;
+}
+.nama-wanita{
+    width: 220px;
+}
+.title, .judul{
+    font-size: 12px;
+}
+.btn{
+    background-color: aqua;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.534);
+}
+.audio{
+    display: none;
+}
+.icon-menu {
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0px 8px 3px rgba(75, 72, 224, 0.781);
+}
+.pria-foto{
+    width: 320px;
+}
+.jadwal{
+    padding-top: 20%;
+}
+.adat{
+    width: 200px;
+}
+.wanita-foto{
+    width: 290px;
+}
+.dan{
+    width: 60px;
+}
+#map {
+    height: 450px;
+    width: 100%;
+}
+iframe{
+    border-radius: 20px;
+    box-shadow: 0 0px 8px 3px rgba(12, 11, 12, 0.781);
+}
+
+.android-icon{
+    background-color:rgba(14, 140, 243, 0.425);
+    padding: 10px;
+    border-radius: 50px;
+    border:  solid rgba(0, 0, 0, 0.342);
+    height: 60px;
+}
+.icon-text{
+    font-size: 12px;
+}
+
+/* Menghapus scrolling horizontal */
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.icon-menu {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0px 8px 3px rgba(75, 72, 224, 0.781);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efek untuk ikon yang aktif */
+.icon-menu.active {
+    transform: translateY(-15px) scale(1.5); /* Menggerakkan ikon ke atas sebesar 10px */
+    box-shadow: 0 1px 2px 10px rgba(194, 194, 194, 0.253);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
